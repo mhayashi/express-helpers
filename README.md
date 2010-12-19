@@ -149,7 +149,7 @@ Creates a general tag.
 
 ### tag_end
 
-Creates an end tag like </div>
+Creates an end tag like `</div>`.
 
 ### text_area_tag
 
