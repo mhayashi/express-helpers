@@ -1,0 +1,9 @@
+{
+  "name": "express-helpers",
+  "version": "0.1.0",
+  "description": "Express Helpers",
+  "author": "Masahiro Hayashi <hayashi.masahiro@gmail.com>",
+  "keywords": ["express", "helper", "ejs"],
+  "directories": { "lib": "./lib" },
+  "engines": { "node": ">= 0.2.0" }
+}
