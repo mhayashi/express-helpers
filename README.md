@@ -11,12 +11,10 @@ Express Helpers provides view helpers for common tasks. These helpers are very s
 * form_tag_end
 * hidden_field_tag
 * input_field_tag
-<!-- * is_current_page -->
 * link_to
 * submit_link_to
 * link_to_if
 * link_to_unless
-<!-- * link_to_unless_current -->
 * password_field_tag
 * select_tag
 * single_tag_for
@@ -79,12 +77,6 @@ Creates an input field tag.
             name='something[interesting]'/>"
 
 
-<!-- ### is_current_page -->
-<!-- Returns true if the url equals location.href or location.pathname, false if otherwise. -->
-
-<!--     is_current_page('yahoo.com') => false -->
-
-
 
 ### link_to
 Creates a link to another page.
@@ -109,9 +101,6 @@ Just like link_to if the condition is true. If condition is false it returns nam
 
 ### link_to_unless(condition, name, url, html_options, block)
 Just like link_to if the condition is false. If condition is true it returns name.
-
-<!-- ### link_to_unless_current(name, url, html_options, block) -->
-<!-- Just like link_to if the url passed in matches the current pages url.  Returns name if otherwise. -->
 
 ### password_field_tag
 Returns a password field.
