@@ -1,6 +1,7 @@
 # Express Helpers
 
-Express Helpers is a port of EJS's ViewHelpers
+Express Helpers is a port of EJS's ViewHelpers.
+
 
 ## Features
 
@@ -27,6 +28,34 @@ Express Helpers provides view helpers for common tasks. These helpers are very s
 * text_field_tag
 * url_for
 * img_tag
+
+
+## Installation
+
+    npm install express-helpers
+    
+    
+## How to use
+
+Require modules and cretae a server.
+
+    var express = require('express');
+    var helpers = require('express-helpers');
+    var app = express.createServer();
+
+Register necessary view helpers...
+
+    app.helpers({
+      date_tag: helpers.date_tag
+    });
+
+    app.helpers({
+      ...
+
+Or all view helpers:D
+
+    app = helpers.all(app);
+
 
 ## Details
 
